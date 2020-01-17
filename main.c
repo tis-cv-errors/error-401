@@ -2,7 +2,7 @@
 
 int main(void)
 {
-    int x = 0;
+    int x = 0, y = 0;
     
     y = my_func(x);
     
