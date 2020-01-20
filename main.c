@@ -1,6 +1,14 @@
 #include <assert.h>
 
-int main(void)
+int my_func(int x) {
+    
+    assert(x > 0);
+    
+    return -x;
+    
+}
+
+int test1(void)
 {
     int x = 0, y = 0;
     
@@ -9,10 +17,8 @@ int main(void)
     return 0;
 }
 
-int my_func(int x) {
-    
-    assert(x > 0);
-    
-    return -x;
-    
+int test2(void)
+{
+    while (1) {
+    }
 }
