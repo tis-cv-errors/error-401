@@ -25,5 +25,5 @@ int test2(void)
     return 0;
 }
 
-void foo(void) {
+int foo(void) {
 }
