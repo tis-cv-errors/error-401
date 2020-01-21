@@ -9,7 +9,8 @@ int my_func(int x) {
 }
 
 int foo(void) {
-    return 0;
+    while (1) {
+    }
 }
 
 int test1(void)
@@ -23,11 +24,7 @@ int test1(void)
 
 int test2(void)
 {
-    int cnt = 0;
+    foo();
     
-    while (1) {
-        foo();
-        cnt = cnt + 1;
-    }
-    return cnt;
+    return 0;
 }
