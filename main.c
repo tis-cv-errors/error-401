@@ -23,8 +23,11 @@ int test1(void)
 
 int test2(void)
 {
+    int cnt = 0;
+    
     while (1) {
         foo();
+        cnt = cnt + 1;
     }
-    return 0;
+    return cnt;
 }
