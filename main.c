@@ -20,5 +20,9 @@ int test1(void)
 int test2(void)
 {
     while (1) {
+        foo();
     }
+}
+
+void foo(void) {
 }
