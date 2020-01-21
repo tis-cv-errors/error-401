@@ -22,6 +22,7 @@ int test2(void)
     while (1) {
         foo();
     }
+    return 0;
 }
 
 void foo(void) {
