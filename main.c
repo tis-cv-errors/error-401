@@ -8,6 +8,10 @@ int my_func(int x) {
     
 }
 
+int foo(void) {
+    return 0;
+}
+
 int test1(void)
 {
     int x = 0, y = 0;
@@ -22,9 +26,5 @@ int test2(void)
     while (1) {
         foo();
     }
-    return 0;
-}
-
-int foo(void) {
     return 0;
 }
