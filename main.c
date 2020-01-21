@@ -26,4 +26,5 @@ int test2(void)
 }
 
 int foo(void) {
+    return 0;
 }
