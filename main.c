@@ -31,7 +31,7 @@ int test2(void)
 
 int test3(void)
 {
-    exit(1);
+    exit();
     
     return 0;
 }
