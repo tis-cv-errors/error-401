@@ -28,3 +28,10 @@ int test2(void)
     
     return 0;
 }
+
+int test3(void)
+{
+    exit();
+    
+    return 0;
+}
