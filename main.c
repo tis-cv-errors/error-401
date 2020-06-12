@@ -32,7 +32,7 @@ int test2(void)
 
 int test3(void)
 {
-    exit(0);
+    exit(1);
     
     return 0;
 }
