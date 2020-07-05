@@ -25,7 +25,8 @@ int test1(void)
 
 int test2(void)
 {
-    foo();
+    while (1) {}
+    //foo();
     
     return 0;
 }
